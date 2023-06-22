@@ -141,6 +141,12 @@ header nav a{
     header nav a {
         font-size: 1em;
     }
+    article{
+        flex-direction: column;
+        align-itens: center;
+        justify-content: center;
+        text-align: center;
+    }
    
   #projects img{
         align-itens: center;
