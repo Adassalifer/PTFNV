@@ -1,0 +1,80 @@
+header nav a{
+    color:#f142c5;
+}
+
+main {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  main h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+    color:#f142c5;
+    text-align: center;
+    margin-top: 40px;
+   
+  }
+  main h2:hover{
+    color:white;
+  }
+
+ 
+  .gallery-wrapper {
+    flex-basis: 100%;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    height: 400px;
+  }
+  
+  .gallery img {
+    width: 50%;
+    height: 50%;
+    margin-right: 16px;
+    border: 2px #f142c5 solid;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 0 11px #f142c5 ;
+  }
+  .gallery img:hover{
+    box-shadow: 0 0 18px #f493db ;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: violet;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+  }
+  
+  @media(max-width: 700px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    header h1{
+        font-size: 2em;
+    }
+    header h2{
+        font-size: 1em;
+    }
+    header nav {
+        margin-top: 20px;
+    }
+    header nav a {
+        font-size: 1em;
+    }
+    main img{
+        width: 250px;
+        height: 250px;
+    }
+}
