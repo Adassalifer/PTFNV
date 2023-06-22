@@ -144,8 +144,9 @@ header nav a{
    
   #projects img{
         align-itens: center;
-        width: 250px;
-        height: 250px;
+        justify-content: center;
+        width: 230px;
+        height: 230px;
     }
 }
 
