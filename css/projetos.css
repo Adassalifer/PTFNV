@@ -154,6 +154,12 @@ header nav a{
         width: 230px;
         height: 230px;
     }
+    article h3{
+        text-align: center;
+    }
+    article p{
+        text-align: center; 
+    }
 }
 
 
